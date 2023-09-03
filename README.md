@@ -58,7 +58,7 @@ Im Kontext dieses Praktikums wurde ein simuliertes Trouble Ticket System entwick
 ## Abgabe:
 Die Abgabe des Projekts erfolgte in Form einer .zip-Datei, die den Source Code, Konsolen-Log-Dateien und eine zeitlich chronologisch geordnete Textdatei mit Logs aller Systeme enthält.
 
-# Projekt: Entwicklung einer Phoenix Web App
+# Projekt 5: Entwicklung einer Phoenix Web App
 ## Hintergrund:
 
 Für dieses Projekt wurde der Phoenix Web Framework in der Programmiersprache Elixir verwendet. Phoenix baut auf Elixir auf und bietet somit alle Vorteile der funktionalen Programmierung, unterstützt jedoch auch einen imperativen Programmierstil. Durch die Basis auf der Erlang VM BEAM sind Elixir und Phoenix besonders gut für die Parallelisierung und den Einsatz in Cluster-Umgebungen geeignet.
