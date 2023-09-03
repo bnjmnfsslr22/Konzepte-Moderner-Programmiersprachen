@@ -32,7 +32,7 @@ In diesem Projekt wurde das in Scala geschriebene Programm von Projekt 2 erweite
 ### Beschreibung:
 In diesem Projekt wurde die Real-Time Kommunikation zwischen Web-Clients und einem Server über Websockets realisiert, ein Anwendungsfall für Concurrency und asynchrones Handling von individuellen Websocket-Connections. 
 
-Anwendungsgebiete:
+### Anwendungsgebiete:
 - Messaging Applikationen
 - Multiplayer Games
 - Collaboration Applikationen
@@ -62,16 +62,15 @@ Die Abgabe des Projekts erfolgte in Form einer .zip-Datei, die den Source Code, 
 ### Hintergrund:
 
 Für dieses Projekt wurde der Phoenix Web Framework in der Programmiersprache Elixir verwendet. Phoenix baut auf Elixir auf und bietet somit alle Vorteile der funktionalen Programmierung, unterstützt jedoch auch einen imperativen Programmierstil. Durch die Basis auf der Erlang VM BEAM sind Elixir und Phoenix besonders gut für die Parallelisierung und den Einsatz in Cluster-Umgebungen geeignet.
-Projektziele:
+### Projektziele:
 
-    Kennenlernen der Hauptmechanismen von Phoenix und Phoenix LiveWire.
-    Wertschätzen der Einfachheit, mit der eine App mit Live Update-Fähigkeiten in Phoenix realisiert werden kann.
+    - Kennenlernen der Hauptmechanismen von Phoenix und Phoenix LiveWire.
+    - Wertschätzen der Einfachheit, mit der eine App mit Live Update-Fähigkeiten in Phoenix realisiert werden kann.
 
 ### Projektbeschreibung:
 ### Aufgabe 1: Counter App
 
 Die erste Aufgabe bestand darin, eine einfache "Counter" App im Phoenix Framework zu erstellen. Hierfür wurden die folgenden Schritte durchgeführt:
-
     - Scaffolding: Eine App-Struktur namens "counter" wurde mittels Phoenix erstellt.
     - Phoenix Webserver starten: Die App wurde lokal auf Port 4000 gehostet und über einen Webbrowser zugänglich gemacht.
     - Routing und Live Controller: Routing für einen View "/counter" wurde eingerichtet, und ein "Live Controller" wurde erstellt, um den Counter-Wert dynamisch zu aktualisieren.
