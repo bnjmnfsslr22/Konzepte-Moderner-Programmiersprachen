@@ -58,3 +58,30 @@ Im Kontext dieses Praktikums wurde ein simuliertes Trouble Ticket System entwick
 ## Abgabe:
 Die Abgabe des Projekts erfolgte in Form einer .zip-Datei, die den Source Code, Konsolen-Log-Dateien und eine zeitlich chronologisch geordnete Textdatei mit Logs aller Systeme enthält.
 
+# Projekt: Entwicklung einer Phoenix Web App
+## Hintergrund:
+
+Für dieses Projekt wurde der Phoenix Web Framework in der Programmiersprache Elixir verwendet. Phoenix baut auf Elixir auf und bietet somit alle Vorteile der funktionalen Programmierung, unterstützt jedoch auch einen imperativen Programmierstil. Durch die Basis auf der Erlang VM BEAM sind Elixir und Phoenix besonders gut für die Parallelisierung und den Einsatz in Cluster-Umgebungen geeignet.
+Projektziele:
+
+    Kennenlernen der Hauptmechanismen von Phoenix und Phoenix LiveWire.
+    Wertschätzen der Einfachheit, mit der eine App mit Live Update-Fähigkeiten in Phoenix realisiert werden kann.
+
+# Projektbeschreibung:
+## Aufgabe 1: Counter App
+
+Die erste Aufgabe bestand darin, eine einfache "Counter" App im Phoenix Framework zu erstellen. Hierfür wurden die folgenden Schritte durchgeführt:
+
+    Scaffolding: Eine App-Struktur namens "counter" wurde mittels Phoenix erstellt.
+    Phoenix Webserver starten: Die App wurde lokal auf Port 4000 gehostet und über einen Webbrowser zugänglich gemacht.
+    Routing und Live Controller: Routing für einen View "/counter" wurde eingerichtet, und ein "Live Controller" wurde erstellt, um den Counter-Wert dynamisch zu aktualisieren.
+    Buttons hinzufügen: Schaltflächen zum Erhöhen des Counters wurden hinzugefügt.
+    Event Handling: Für jeden Button wurde eine Event-Handling-Funktion implementiert, um den Counter-Wert entsprechend zu erhöhen.
+    Real-Time Updates: Die App wurde so erweitert, dass Änderungen in Echtzeit über mehrere Clients synchronisiert werden können. Dies wurde durch Abonnieren und Veröffentlichen von Änderungen im "Live Controller" erreicht.
+
+## Aufgabe 2: Chat App
+
+In der zweiten Aufgabe wurde eine einfache Chat App in Phoenix LiveWire programmiert. 
+## Fazit:
+
+Das Projekt bot die Möglichkeit, tiefe Einblicke in die Funktionsweise des Phoenix Web Frameworks und Phoenix LiveWire zu erhalten. Die Implementierung des Counter und der Chat App hat gezeigt, wie einfach es ist, Apps mit Live Update-Fähigkeiten in Phoenix zu realisieren
